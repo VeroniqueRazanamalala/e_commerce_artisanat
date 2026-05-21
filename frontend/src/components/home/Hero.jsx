@@ -1,9 +1,9 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { ShoppingBag, ShoppingCart, ArrowRight } from 'lucide-react';
 import { cn } from '../../utils/cn';
-import sacImg from '../../assets/image/sac.png';
-import chapeauImg from '../../assets/image/chapeau.jpg';
-import sandaleImg from '../../assets/image/sandale.png';
+import artisanHandsImg from '../../assets/image/artisan_hands_1779263026121.png';
+import artisanVillageImg from '../../assets/image/artisan_village_1779263039603.png';
+import artisanWeavingImg from '../../assets/image/artisan_weaving_1779263012723.png';
 
 const HERO_SLIDES = [
   {
@@ -11,7 +11,7 @@ const HERO_SLIDES = [
     subtitle: "Collection Héritage",
     description: "Des pièces d'exception tissées à la main, alliant tradition et modernité pour un style intemporel.",
     icon: <ShoppingBag size={320} strokeWidth={0.5} className="text-earth-500/20 absolute -left-20 top-1/2 -translate-y-1/2 rotate-12" />,
-    image: sacImg,
+    image: artisanHandsImg,
     color: "from-natural-900 via-natural-900/95 to-natural-800"
   },
   {
@@ -19,7 +19,7 @@ const HERO_SLIDES = [
     subtitle: "Nouvelle Saison",
     description: "Protégez-vous avec panache grâce à nos chapeaux artisanaux aux finitions délicates.",
     icon: <ShoppingBag size={320} strokeWidth={0.5} className="text-earth-600/20 absolute -left-20 top-1/2 -translate-y-1/2 -rotate-12" />,
-    image: chapeauImg,
+    image: artisanVillageImg,
     color: "from-earth-900 via-earth-900/95 to-natural-900"
   },
   {
@@ -27,7 +27,7 @@ const HERO_SLIDES = [
     subtitle: "Pas à Pas",
     description: "Des sandales légères et authentiques pour une marche sereine au cœur de la nature.",
     icon: <ShoppingCart size={320} strokeWidth={0.5} className="text-brand-olive/20 absolute -left-20 top-1/2 -translate-y-1/2 rotate-6" />,
-    image: sandaleImg,
+    image: artisanWeavingImg,
     color: "from-brand-olive via-brand-olive/95 to-natural-900"
   }
 ];
